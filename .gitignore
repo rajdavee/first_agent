@@ -1,0 +1,38 @@
+# Critical: Never commit these files
+config/credentials.json
+config/token.json
+.env
+*.env
+*_secret*
+*_key*
+*private*
+*credential*
+*password*
+*secret*
+*key.*
+
+# Project specific
+data/content/
+data/audio/
+automation.log
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+*.egg-info/
+
+# IDE and OS
+.idea/
+.DS_Store
+Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
